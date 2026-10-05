@@ -1,0 +1,26 @@
+# dbt generated
+target/
+dbt_packages/
+dbt_modules/
+logs/
+package-lock.yml
+
+# never commit credentials
+profiles.yml
+.env
+*.pem
+*.p8
+
+# python / tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+.sqlfluff_cache/
+.pre-commit-cache/
+
+# editors / OS
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db

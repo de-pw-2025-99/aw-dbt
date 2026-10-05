@@ -1,0 +1,7 @@
+# Default owner for everything
+*                       @YOUR_GITHUB_HANDLE
+
+# Marts are the public interface — always require review
+/models/marts/**        @YOUR_GITHUB_HANDLE
+/dbt_project.yml        @YOUR_GITHUB_HANDLE
+/.github/**             @YOUR_GITHUB_HANDLE
